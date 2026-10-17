@@ -1,0 +1,8 @@
+# Python >= 3.12. The solvers, generator, benchmark and tests use the
+# standard library only. plot_results.py and visualize_solver.py need
+# matplotlib (the version used for the saved figures).
+#
+# Not installed by pip:
+#   pdflatex (TeX Live) builds paper.pdf from paper.tex
+#   ffmpeg on PATH is required for the MP4 files from visualize_solver.py
+matplotlib==3.11.2
