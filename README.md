@@ -42,7 +42,21 @@ Run every command from this folder.
 
 # 3. Summaries from the raw CSV files, without re-running the solvers
 .venv/bin/python benchmark.py summarize --out results
+
+# 4. Paper figures, extended analysis and search-tree traces (no timing)
+.venv/bin/python plot_results.py --results results --out figures
+.venv/bin/python analyze_results.py --results results --figures figures
+.venv/bin/python trace_example.py --dataset dataset --results results --figures figures
 ```
+
+`analyze_results.py` reads only the saved CSV files. It writes
+`results/summary/extended_analysis.json` (which boards each solver wins,
+variation between boards, cost per state, construction estimates) and the
+per-board scatterplot `figures/fig4_time_vs_states`. `trace_example.py` re-runs
+both solvers once per board with the trace callback, separately from any timing,
+and writes `results/summary/trace_states.csv` (states before and after the first
+solution), `results/summary/trace_summary.json`, the full traces of the worked
+example in `results/trace/` and `figures/fig5_worked_example`.
 
 `dataset/boards.jsonl` and `dataset/manifest.json` are the dataset.
 `dataset/generation_log.csv` is the log of every generation attempt. It is not
