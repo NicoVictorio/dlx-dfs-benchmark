@@ -1,0 +1,488 @@
+{
+  "per_size": [
+    {
+      "size": 5,
+      "boards": 100,
+      "solvers": {
+        "dlx": {
+          "median_ms": 0.083428,
+          "min_ms": 0.075954,
+          "max_ms": 0.1091775,
+          "max_over_min_time": 1.4374160676198753,
+          "relative_iqr_time": 0.13047028575538208,
+          "median_states": 7.0,
+          "min_states": 6,
+          "max_states": 16,
+          "max_over_min_states": 2.6666666666666665,
+          "log_log_slope_time_vs_states": 0.3072055622154674,
+          "median_us_per_state": 11.307464285714286
+        },
+        "dfs": {
+          "median_ms": 0.04494775,
+          "min_ms": 0.0227685,
+          "max_ms": 0.0684745,
+          "max_over_min_time": 3.0074225355205653,
+          "relative_iqr_time": 0.29587966027220497,
+          "median_states": 29.0,
+          "min_states": 12,
+          "max_states": 49,
+          "max_over_min_states": 4.083333333333333,
+          "log_log_slope_time_vs_states": 0.8346541490133429,
+          "median_us_per_state": 1.5153601101101102
+        }
+      },
+      "paired": {
+        "median_of_ratios": 0.5230969876636025,
+        "ratio_of_medians": 0.5387609675408735,
+        "boards_dlx_faster": 0
+      },
+      "crossover": {
+        "dfs_states_median_where_dlx_faster": null,
+        "dfs_states_median_where_dfs_faster": 29.0,
+        "dfs_states_range_where_dlx_faster": null,
+        "dfs_states_range_where_dfs_faster": [
+          12,
+          49
+        ],
+        "best_dfs_state_threshold": 49,
+        "boards_classified_correctly": 100
+      },
+      "construction": {
+        "median_construction_ms": 0.05331325,
+        "boards_dfs_faster_than_dlx_construction_alone": 81,
+        "median_estimated_dlx_search_ms": 0.029641,
+        "iqr_estimated_dlx_search_ms": [
+          0.026571874999999995,
+          0.03742125
+        ],
+        "boards_estimated_dlx_search_below_dfs_time": 87,
+        "median_estimated_dlx_search_us_per_state": 3.983492063492063
+      },
+      "dlx_boards_without_branching": 28,
+      "extremes": {
+        "smallest_ratio": {
+          "board_id": "n5-019",
+          "ratio_dfs_over_dlx": 0.2574567785005135,
+          "dlx_ms": 0.093472,
+          "dfs_ms": 0.024065,
+          "dlx_states": 10,
+          "dfs_states": 14
+        },
+        "largest_ratio": {
+          "board_id": "n5-091",
+          "ratio_dfs_over_dlx": 0.8375179362503369,
+          "dlx_ms": 0.07979649999999999,
+          "dfs_ms": 0.066831,
+          "dlx_states": 6,
+          "dfs_states": 45
+        }
+      }
+    },
+    {
+      "size": 6,
+      "boards": 100,
+      "solvers": {
+        "dlx": {
+          "median_ms": 0.11779324999999999,
+          "min_ms": 0.1033355,
+          "max_ms": 0.201166,
+          "max_over_min_time": 1.946726923467734,
+          "relative_iqr_time": 0.12765056571577738,
+          "median_states": 10.0,
+          "min_states": 7,
+          "max_states": 36,
+          "max_over_min_states": 5.142857142857143,
+          "log_log_slope_time_vs_states": 0.3242699237242689,
+          "median_us_per_state": 12.275500000000001
+        },
+        "dfs": {
+          "median_ms": 0.10271975,
+          "min_ms": 0.0415435,
+          "max_ms": 0.239278,
+          "max_over_min_time": 5.759697666301587,
+          "relative_iqr_time": 0.5598752917525599,
+          "median_states": 74.0,
+          "min_states": 26,
+          "max_states": 173,
+          "max_over_min_states": 6.653846153846154,
+          "log_log_slope_time_vs_states": 0.9097476684062585,
+          "median_us_per_state": 1.429531452922078
+        }
+      },
+      "paired": {
+        "median_of_ratios": 0.8745971464574461,
+        "ratio_of_medians": 0.8720342634234135,
+        "boards_dlx_faster": 33
+      },
+      "crossover": {
+        "dfs_states_median_where_dlx_faster": 106,
+        "dfs_states_median_where_dfs_faster": 58,
+        "dfs_states_range_where_dlx_faster": [
+          82,
+          173
+        ],
+        "dfs_states_range_where_dfs_faster": [
+          26,
+          100
+        ],
+        "best_dfs_state_threshold": 80,
+        "boards_classified_correctly": 93
+      },
+      "construction": {
+        "median_construction_ms": 0.07551050000000001,
+        "boards_dfs_faster_than_dlx_construction_alone": 22,
+        "median_estimated_dlx_search_ms": 0.04307649999999999,
+        "iqr_estimated_dlx_search_ms": [
+          0.036278875,
+          0.05064612500000001
+        ],
+        "boards_estimated_dlx_search_below_dfs_time": 95,
+        "median_estimated_dlx_search_us_per_state": 4.242843750000001
+      },
+      "dlx_boards_without_branching": 16,
+      "extremes": {
+        "smallest_ratio": {
+          "board_id": "n6-029",
+          "ratio_dfs_over_dlx": 0.36589146604075196,
+          "dlx_ms": 0.1135405,
+          "dfs_ms": 0.0415435,
+          "dlx_states": 10,
+          "dfs_states": 26
+        },
+        "largest_ratio": {
+          "board_id": "n6-013",
+          "ratio_dfs_over_dlx": 1.7639538620862052,
+          "dlx_ms": 0.112012,
+          "dfs_ms": 0.197584,
+          "dlx_states": 9,
+          "dfs_states": 150
+        }
+      }
+    },
+    {
+      "size": 7,
+      "boards": 100,
+      "solvers": {
+        "dlx": {
+          "median_ms": 0.15594550000000001,
+          "min_ms": 0.1384975,
+          "max_ms": 0.274646,
+          "max_over_min_time": 1.9830394050434124,
+          "relative_iqr_time": 0.09858331917240318,
+          "median_states": 11.0,
+          "min_states": 8,
+          "max_states": 41,
+          "max_over_min_states": 5.125,
+          "log_log_slope_time_vs_states": 0.3345439184824966,
+          "median_us_per_state": 14.410704545454545
+        },
+        "dfs": {
+          "median_ms": 0.21539075000000002,
+          "min_ms": 0.053762000000000004,
+          "max_ms": 1.0191759999999999,
+          "max_over_min_time": 18.957181652468282,
+          "relative_iqr_time": 0.8544436100436067,
+          "median_states": 153.0,
+          "min_states": 34,
+          "max_states": 743,
+          "max_over_min_states": 21.852941176470587,
+          "log_log_slope_time_vs_states": 0.9502927626612865,
+          "median_us_per_state": 1.422889412360689
+        }
+      },
+      "paired": {
+        "median_of_ratios": 1.3824888809017144,
+        "ratio_of_medians": 1.3811924678814074,
+        "boards_dlx_faster": 69
+      },
+      "crossover": {
+        "dfs_states_median_where_dlx_faster": 194,
+        "dfs_states_median_where_dfs_faster": 84,
+        "dfs_states_range_where_dlx_faster": [
+          104,
+          743
+        ],
+        "dfs_states_range_where_dfs_faster": [
+          34,
+          154
+        ],
+        "best_dfs_state_threshold": 105,
+        "boards_classified_correctly": 97
+      },
+      "construction": {
+        "median_construction_ms": 0.1016955,
+        "boards_dfs_faster_than_dlx_construction_alone": 10,
+        "median_estimated_dlx_search_ms": 0.05285999999999999,
+        "iqr_estimated_dlx_search_ms": [
+          0.045639875000000024,
+          0.062666
+        ],
+        "boards_estimated_dlx_search_below_dfs_time": 100,
+        "median_estimated_dlx_search_us_per_state": 4.752525
+      },
+      "dlx_boards_without_branching": 11,
+      "extremes": {
+        "smallest_ratio": {
+          "board_id": "n7-028",
+          "ratio_dfs_over_dlx": 0.35085704216849783,
+          "dlx_ms": 0.1532305,
+          "dfs_ms": 0.053762000000000004,
+          "dlx_states": 12,
+          "dfs_states": 34
+        },
+        "largest_ratio": {
+          "board_id": "n7-006",
+          "ratio_dfs_over_dlx": 5.32754844409131,
+          "dlx_ms": 0.191303,
+          "dfs_ms": 1.0191759999999999,
+          "dlx_states": 18,
+          "dfs_states": 743
+        }
+      }
+    },
+    {
+      "size": 8,
+      "boards": 100,
+      "solvers": {
+        "dlx": {
+          "median_ms": 0.20327725,
+          "min_ms": 0.1766945,
+          "max_ms": 0.3471775,
+          "max_over_min_time": 1.96484610443449,
+          "relative_iqr_time": 0.12591054827827525,
+          "median_states": 13.0,
+          "min_states": 9,
+          "max_states": 55,
+          "max_over_min_states": 6.111111111111111,
+          "log_log_slope_time_vs_states": 0.3058533068682385,
+          "median_us_per_state": 15.722288461538461
+        },
+        "dfs": {
+          "median_ms": 0.61585175,
+          "min_ms": 0.0963175,
+          "max_ms": 2.2015165000000003,
+          "max_over_min_time": 22.856869208606955,
+          "relative_iqr_time": 0.9261171621254627,
+          "median_states": 437.0,
+          "min_states": 63,
+          "max_states": 1585,
+          "max_over_min_states": 25.158730158730158,
+          "log_log_slope_time_vs_states": 0.9747154447475779,
+          "median_us_per_state": 1.4442102253742313
+        }
+      },
+      "paired": {
+        "median_of_ratios": 2.938768485012649,
+        "ratio_of_medians": 3.0296147257009824,
+        "boards_dlx_faster": 88
+      },
+      "crossover": {
+        "dfs_states_median_where_dlx_faster": 476.0,
+        "dfs_states_median_where_dfs_faster": 128.0,
+        "dfs_states_range_where_dlx_faster": [
+          132,
+          1585
+        ],
+        "dfs_states_range_where_dfs_faster": [
+          63,
+          178
+        ],
+        "best_dfs_state_threshold": 141,
+        "boards_classified_correctly": 96
+      },
+      "construction": {
+        "median_construction_ms": 0.13204,
+        "boards_dfs_faster_than_dlx_construction_alone": 2,
+        "median_estimated_dlx_search_ms": 0.07042124999999999,
+        "iqr_estimated_dlx_search_ms": [
+          0.059511499999999995,
+          0.08716362500000001
+        ],
+        "boards_estimated_dlx_search_below_dfs_time": 100,
+        "median_estimated_dlx_search_us_per_state": 5.355802272727273
+      },
+      "dlx_boards_without_branching": 11,
+      "extremes": {
+        "smallest_ratio": {
+          "board_id": "n8-003",
+          "ratio_dfs_over_dlx": 0.44925045243381406,
+          "dlx_ms": 0.214396,
+          "dfs_ms": 0.0963175,
+          "dlx_states": 18,
+          "dfs_states": 63
+        },
+        "largest_ratio": {
+          "board_id": "n8-042",
+          "ratio_dfs_over_dlx": 9.93416074073554,
+          "dlx_ms": 0.21367950000000002,
+          "dfs_ms": 2.1227265,
+          "dlx_states": 14,
+          "dfs_states": 1481
+        }
+      }
+    },
+    {
+      "size": 9,
+      "boards": 100,
+      "solvers": {
+        "dlx": {
+          "median_ms": 0.25217049999999996,
+          "min_ms": 0.2224815,
+          "max_ms": 0.4514905,
+          "max_over_min_time": 2.029339518117237,
+          "relative_iqr_time": 0.16927386431006025,
+          "median_states": 14.0,
+          "min_states": 10,
+          "max_states": 60,
+          "max_over_min_states": 6.0,
+          "log_log_slope_time_vs_states": 0.34990624595250214,
+          "median_us_per_state": 17.621425000000002
+        },
+        "dfs": {
+          "median_ms": 1.1955252500000002,
+          "min_ms": 0.18708950000000002,
+          "max_ms": 6.9786874999999995,
+          "max_over_min_time": 37.30133171556928,
+          "relative_iqr_time": 1.2501706885739132,
+          "median_states": 819.0,
+          "min_states": 119,
+          "max_states": 4699,
+          "max_over_min_states": 39.48739495798319,
+          "log_log_slope_time_vs_states": 0.9801618892355111,
+          "median_us_per_state": 1.4839189526663594
+        }
+      },
+      "paired": {
+        "median_of_ratios": 4.45189512211623,
+        "ratio_of_medians": 4.740940157552134,
+        "boards_dlx_faster": 98
+      },
+      "crossover": {
+        "dfs_states_median_where_dlx_faster": 873.5,
+        "dfs_states_median_where_dfs_faster": 130.0,
+        "dfs_states_range_where_dlx_faster": [
+          151,
+          4699
+        ],
+        "dfs_states_range_where_dfs_faster": [
+          119,
+          141
+        ],
+        "best_dfs_state_threshold": 141,
+        "boards_classified_correctly": 100
+      },
+      "construction": {
+        "median_construction_ms": 0.16825400000000001,
+        "boards_dfs_faster_than_dlx_construction_alone": 0,
+        "median_estimated_dlx_search_ms": 0.08399924999999998,
+        "iqr_estimated_dlx_search_ms": [
+          0.06960662499999998,
+          0.11019124999999999
+        ],
+        "boards_estimated_dlx_search_below_dfs_time": 100,
+        "median_estimated_dlx_search_us_per_state": 5.683071875000001
+      },
+      "dlx_boards_without_branching": 13,
+      "extremes": {
+        "smallest_ratio": {
+          "board_id": "n9-074",
+          "ratio_dfs_over_dlx": 0.7637896051831198,
+          "dlx_ms": 0.244949,
+          "dfs_ms": 0.18708950000000002,
+          "dlx_states": 12,
+          "dfs_states": 119
+        },
+        "largest_ratio": {
+          "board_id": "n9-046",
+          "ratio_dfs_over_dlx": 27.272802768436538,
+          "dlx_ms": 0.2558845,
+          "dfs_ms": 6.9786874999999995,
+          "dlx_states": 13,
+          "dfs_states": 4699
+        }
+      }
+    },
+    {
+      "size": 10,
+      "boards": 100,
+      "solvers": {
+        "dlx": {
+          "median_ms": 0.32160675,
+          "min_ms": 0.283477,
+          "max_ms": 0.6180365,
+          "max_over_min_time": 2.180199804569683,
+          "relative_iqr_time": 0.2204100971139442,
+          "median_states": 17.0,
+          "min_states": 11,
+          "max_states": 61,
+          "max_over_min_states": 5.545454545454546,
+          "log_log_slope_time_vs_states": 0.3267911350730404,
+          "median_us_per_state": 18.291720588235293
+        },
+        "dfs": {
+          "median_ms": 3.697458,
+          "min_ms": 0.524734,
+          "max_ms": 35.177079,
+          "max_over_min_time": 67.0379258824471,
+          "relative_iqr_time": 1.676454201778627,
+          "median_states": 2494.5,
+          "min_states": 339,
+          "max_states": 23987,
+          "max_over_min_states": 70.75811209439529,
+          "log_log_slope_time_vs_states": 0.9859845569298598,
+          "median_us_per_state": 1.5044426803465463
+        }
+      },
+      "paired": {
+        "median_of_ratios": 10.225592567999378,
+        "ratio_of_medians": 11.496829590796835,
+        "boards_dlx_faster": 100
+      },
+      "crossover": {
+        "dfs_states_median_where_dlx_faster": 2494.5,
+        "dfs_states_median_where_dfs_faster": null,
+        "dfs_states_range_where_dlx_faster": [
+          339,
+          23987
+        ],
+        "dfs_states_range_where_dfs_faster": null,
+        "best_dfs_state_threshold": 0,
+        "boards_classified_correctly": 100
+      },
+      "construction": {
+        "median_construction_ms": 0.2074705,
+        "boards_dfs_faster_than_dlx_construction_alone": 0,
+        "median_estimated_dlx_search_ms": 0.1133595,
+        "iqr_estimated_dlx_search_ms": [
+          0.09348787500000001,
+          0.16344299999999998
+        ],
+        "boards_estimated_dlx_search_below_dfs_time": 100,
+        "median_estimated_dlx_search_us_per_state": 6.291131481481482
+      },
+      "dlx_boards_without_branching": 9,
+      "extremes": {
+        "smallest_ratio": {
+          "board_id": "n10-098",
+          "ratio_dfs_over_dlx": 1.5877142420570265,
+          "dlx_ms": 0.33049649999999997,
+          "dfs_ms": 0.524734,
+          "dlx_states": 25,
+          "dfs_states": 339
+        },
+        "largest_ratio": {
+          "board_id": "n10-012",
+          "ratio_dfs_over_dlx": 97.67408908849846,
+          "dlx_ms": 0.3601475,
+          "dfs_ms": 35.177079,
+          "dlx_states": 17,
+          "dfs_states": 23987
+        }
+      }
+    }
+  ],
+  "pooled_log_log_slope_time_vs_states": {
+    "dlx": 0.8351097903832028,
+    "dfs": 0.9962377208690973
+  }
+}

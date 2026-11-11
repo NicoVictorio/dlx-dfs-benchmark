@@ -1,0 +1,114 @@
+{
+  "example_board": "n5-021",
+  "selection": "first 5x5 board with median state counts {'dfs': 29.0, 'dlx': 7.0}",
+  "per_size": [
+    {
+      "size": 5,
+      "solver": "dfs",
+      "median_states_to_first_solution": 18.5,
+      "median_states_after_first_solution": 11.0,
+      "median_share_after_first_solution_percent": 34.752321981424146,
+      "min_share_after_first_solution_percent": 0.0,
+      "max_share_after_first_solution_percent": 85.36585365853658
+    },
+    {
+      "size": 5,
+      "solver": "dlx",
+      "median_states_to_first_solution": 6.0,
+      "median_states_after_first_solution": 0.0,
+      "median_share_after_first_solution_percent": 0.0,
+      "min_share_after_first_solution_percent": 0.0,
+      "max_share_after_first_solution_percent": 50.0
+    },
+    {
+      "size": 6,
+      "solver": "dfs",
+      "median_states_to_first_solution": 33.0,
+      "median_states_after_first_solution": 33.0,
+      "median_share_after_first_solution_percent": 44.53687050359712,
+      "min_share_after_first_solution_percent": 0.0,
+      "max_share_after_first_solution_percent": 90.17857142857143
+    },
+    {
+      "size": 6,
+      "solver": "dlx",
+      "median_states_to_first_solution": 8.0,
+      "median_states_after_first_solution": 0.5,
+      "median_share_after_first_solution_percent": 2.6315789473684212,
+      "min_share_after_first_solution_percent": 0.0,
+      "max_share_after_first_solution_percent": 73.07692307692308
+    },
+    {
+      "size": 7,
+      "solver": "dfs",
+      "median_states_to_first_solution": 74.0,
+      "median_states_after_first_solution": 69.0,
+      "median_share_after_first_solution_percent": 45.79457783546037,
+      "min_share_after_first_solution_percent": 0.0,
+      "max_share_after_first_solution_percent": 97.05882352941177
+    },
+    {
+      "size": 7,
+      "solver": "dlx",
+      "median_states_to_first_solution": 9.0,
+      "median_states_after_first_solution": 1.0,
+      "median_share_after_first_solution_percent": 11.11111111111111,
+      "min_share_after_first_solution_percent": 0.0,
+      "max_share_after_first_solution_percent": 75.60975609756098
+    },
+    {
+      "size": 8,
+      "solver": "dfs",
+      "median_states_to_first_solution": 199.5,
+      "median_states_after_first_solution": 142.5,
+      "median_share_after_first_solution_percent": 43.633234598136724,
+      "min_share_after_first_solution_percent": 0.0,
+      "max_share_after_first_solution_percent": 99.057344854674
+    },
+    {
+      "size": 8,
+      "solver": "dlx",
+      "median_states_to_first_solution": 10.0,
+      "median_states_after_first_solution": 1.0,
+      "median_share_after_first_solution_percent": 10.0,
+      "min_share_after_first_solution_percent": 0.0,
+      "max_share_after_first_solution_percent": 80.0
+    },
+    {
+      "size": 9,
+      "solver": "dfs",
+      "median_states_to_first_solution": 357.0,
+      "median_states_after_first_solution": 347.0,
+      "median_share_after_first_solution_percent": 52.146392787967194,
+      "min_share_after_first_solution_percent": 0.7240204429301533,
+      "max_share_after_first_solution_percent": 96.12903225806451
+    },
+    {
+      "size": 9,
+      "solver": "dlx",
+      "median_states_to_first_solution": 11.0,
+      "median_states_after_first_solution": 3.0,
+      "median_share_after_first_solution_percent": 16.666666666666668,
+      "min_share_after_first_solution_percent": 0.0,
+      "max_share_after_first_solution_percent": 60.0
+    },
+    {
+      "size": 10,
+      "solver": "dfs",
+      "median_states_to_first_solution": 1041.0,
+      "median_states_after_first_solution": 964.5,
+      "median_share_after_first_solution_percent": 55.40413046197129,
+      "min_share_after_first_solution_percent": 0.052576235541535225,
+      "max_share_after_first_solution_percent": 98.88691006233303
+    },
+    {
+      "size": 10,
+      "solver": "dlx",
+      "median_states_to_first_solution": 13.0,
+      "median_states_after_first_solution": 3.0,
+      "median_share_after_first_solution_percent": 14.057377049180328,
+      "min_share_after_first_solution_percent": 0.0,
+      "max_share_after_first_solution_percent": 62.7906976744186
+    }
+  ]
+}

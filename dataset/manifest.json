@@ -1,0 +1,76 @@
+{
+  "command": "python generator.py --seed 1 --sizes 5 6 7 8 9 10 --per-size 100 --max-attempts 500000000 --time-limit 60 --out dataset-baru",
+  "seed": 1,
+  "rng_per_size": "random.Random(f'{seed}:{n}')",
+  "sizes": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "target_per_size": 100,
+  "max_attempts_per_size": 500000000,
+  "time_limit_seconds": 60.0,
+  "python": "3.14.4",
+  "generation_seconds": 59851.5,
+  "results": {
+    "5": {
+      "accepted": 100,
+      "attempts": 439,
+      "outcomes": {
+        "multiple": 339,
+        "unique": 100
+      },
+      "shortfall": 0
+    },
+    "6": {
+      "accepted": 100,
+      "attempts": 2103,
+      "outcomes": {
+        "multiple": 2003,
+        "unique": 100
+      },
+      "shortfall": 0
+    },
+    "7": {
+      "accepted": 100,
+      "attempts": 14186,
+      "outcomes": {
+        "multiple": 14086,
+        "unique": 100
+      },
+      "shortfall": 0
+    },
+    "8": {
+      "accepted": 100,
+      "attempts": 130771,
+      "outcomes": {
+        "multiple": 130671,
+        "unique": 100
+      },
+      "shortfall": 0
+    },
+    "9": {
+      "accepted": 100,
+      "attempts": 1438249,
+      "outcomes": {
+        "multiple": 1438149,
+        "unique": 100
+      },
+      "shortfall": 0
+    },
+    "10": {
+      "accepted": 100,
+      "attempts": 16075681,
+      "outcomes": {
+        "multiple": 16075581,
+        "unique": 100
+      },
+      "shortfall": 0
+    }
+  },
+  "boards_file": "boards.jsonl",
+  "boards_sha256": "a6d9bbddcc5824f2e4c693f836f3db2847b100e262f96c605c4d07d1882cca46"
+}

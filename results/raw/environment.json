@@ -1,0 +1,21 @@
+{
+  "cpu": "AMD Ryzen 9 7950X3D 16-Core Processor",
+  "logical_cpus": 32,
+  "os": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "implementation": "CPython",
+  "timer": "time.perf_counter_ns (clock_gettime(CLOCK_MONOTONIC), resolution 1e-09 s)",
+  "solver_dependencies": "Python standard library only",
+  "command": "python benchmark.py run --dataset dataset-baru --out results-baru --repetitions 10 --time-limit 10",
+  "started_utc": "2026-10-16T12:45:57+00:00",
+  "duration_seconds": 25.9,
+  "dataset_sha256": "a6d9bbddcc5824f2e4c693f836f3db2847b100e262f96c605c4d07d1882cca46",
+  "dataset_seed": 1,
+  "order_seed": "3079:order",
+  "warmup_runs": 1,
+  "timed_repetitions": 10,
+  "time_limit_seconds": 10.0,
+  "solution_limit": 2,
+  "cpu_affinity": null,
+  "garbage_collection": "enabled during runs; gc.collect() before each run"
+}

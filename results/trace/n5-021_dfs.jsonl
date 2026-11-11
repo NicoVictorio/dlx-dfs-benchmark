@@ -1,0 +1,211 @@
+{"event": 1, "kind": "visit", "counts_as_state": true, "search_states": 1, "solution_count": 0, "placements": [], "row": 0}
+{"event": 2, "kind": "choose", "counts_as_state": false, "search_states": 1, "solution_count": 0, "placements": [[0, 0]], "cell": [0, 0]}
+{"event": 3, "kind": "visit", "counts_as_state": true, "search_states": 2, "solution_count": 0, "placements": [[0, 0]], "row": 1}
+{"event": 4, "kind": "reject", "counts_as_state": false, "search_states": 2, "solution_count": 0, "placements": [[0, 0]], "row": 1, "column": 0, "reason": "column"}
+{"event": 5, "kind": "reject", "counts_as_state": false, "search_states": 2, "solution_count": 0, "placements": [[0, 0]], "row": 1, "column": 1, "reason": "region"}
+{"event": 6, "kind": "choose", "counts_as_state": false, "search_states": 2, "solution_count": 0, "placements": [[0, 0], [1, 2]], "cell": [1, 2]}
+{"event": 7, "kind": "visit", "counts_as_state": true, "search_states": 3, "solution_count": 0, "placements": [[0, 0], [1, 2]], "row": 2}
+{"event": 8, "kind": "reject", "counts_as_state": false, "search_states": 3, "solution_count": 0, "placements": [[0, 0], [1, 2]], "row": 2, "column": 0, "reason": "column"}
+{"event": 9, "kind": "reject", "counts_as_state": false, "search_states": 3, "solution_count": 0, "placements": [[0, 0], [1, 2]], "row": 2, "column": 1, "reason": "region"}
+{"event": 10, "kind": "reject", "counts_as_state": false, "search_states": 3, "solution_count": 0, "placements": [[0, 0], [1, 2]], "row": 2, "column": 2, "reason": "column"}
+{"event": 11, "kind": "reject", "counts_as_state": false, "search_states": 3, "solution_count": 0, "placements": [[0, 0], [1, 2]], "row": 2, "column": 3, "reason": "region"}
+{"event": 12, "kind": "reject", "counts_as_state": false, "search_states": 3, "solution_count": 0, "placements": [[0, 0], [1, 2]], "row": 2, "column": 4, "reason": "region"}
+{"event": 13, "kind": "dead_end", "counts_as_state": false, "search_states": 3, "solution_count": 0, "placements": [[0, 0], [1, 2]], "row": 2}
+{"event": 14, "kind": "undo", "counts_as_state": false, "search_states": 3, "solution_count": 0, "placements": [[0, 0]], "cell": [1, 2]}
+{"event": 15, "kind": "choose", "counts_as_state": false, "search_states": 3, "solution_count": 0, "placements": [[0, 0], [1, 3]], "cell": [1, 3]}
+{"event": 16, "kind": "visit", "counts_as_state": true, "search_states": 4, "solution_count": 0, "placements": [[0, 0], [1, 3]], "row": 2}
+{"event": 17, "kind": "reject", "counts_as_state": false, "search_states": 4, "solution_count": 0, "placements": [[0, 0], [1, 3]], "row": 2, "column": 0, "reason": "column"}
+{"event": 18, "kind": "reject", "counts_as_state": false, "search_states": 4, "solution_count": 0, "placements": [[0, 0], [1, 3]], "row": 2, "column": 1, "reason": "region"}
+{"event": 19, "kind": "reject", "counts_as_state": false, "search_states": 4, "solution_count": 0, "placements": [[0, 0], [1, 3]], "row": 2, "column": 2, "reason": "region"}
+{"event": 20, "kind": "reject", "counts_as_state": false, "search_states": 4, "solution_count": 0, "placements": [[0, 0], [1, 3]], "row": 2, "column": 3, "reason": "column"}
+{"event": 21, "kind": "reject", "counts_as_state": false, "search_states": 4, "solution_count": 0, "placements": [[0, 0], [1, 3]], "row": 2, "column": 4, "reason": "region"}
+{"event": 22, "kind": "dead_end", "counts_as_state": false, "search_states": 4, "solution_count": 0, "placements": [[0, 0], [1, 3]], "row": 2}
+{"event": 23, "kind": "undo", "counts_as_state": false, "search_states": 4, "solution_count": 0, "placements": [[0, 0]], "cell": [1, 3]}
+{"event": 24, "kind": "choose", "counts_as_state": false, "search_states": 4, "solution_count": 0, "placements": [[0, 0], [1, 4]], "cell": [1, 4]}
+{"event": 25, "kind": "visit", "counts_as_state": true, "search_states": 5, "solution_count": 0, "placements": [[0, 0], [1, 4]], "row": 2}
+{"event": 26, "kind": "reject", "counts_as_state": false, "search_states": 5, "solution_count": 0, "placements": [[0, 0], [1, 4]], "row": 2, "column": 0, "reason": "column"}
+{"event": 27, "kind": "choose", "counts_as_state": false, "search_states": 5, "solution_count": 0, "placements": [[0, 0], [1, 4], [2, 1]], "cell": [2, 1]}
+{"event": 28, "kind": "visit", "counts_as_state": true, "search_states": 6, "solution_count": 0, "placements": [[0, 0], [1, 4], [2, 1]], "row": 3}
+{"event": 29, "kind": "reject", "counts_as_state": false, "search_states": 6, "solution_count": 0, "placements": [[0, 0], [1, 4], [2, 1]], "row": 3, "column": 0, "reason": "column"}
+{"event": 30, "kind": "reject", "counts_as_state": false, "search_states": 6, "solution_count": 0, "placements": [[0, 0], [1, 4], [2, 1]], "row": 3, "column": 1, "reason": "column"}
+{"event": 31, "kind": "reject", "counts_as_state": false, "search_states": 6, "solution_count": 0, "placements": [[0, 0], [1, 4], [2, 1]], "row": 3, "column": 2, "reason": "region"}
+{"event": 32, "kind": "reject", "counts_as_state": false, "search_states": 6, "solution_count": 0, "placements": [[0, 0], [1, 4], [2, 1]], "row": 3, "column": 3, "reason": "region"}
+{"event": 33, "kind": "reject", "counts_as_state": false, "search_states": 6, "solution_count": 0, "placements": [[0, 0], [1, 4], [2, 1]], "row": 3, "column": 4, "reason": "column"}
+{"event": 34, "kind": "dead_end", "counts_as_state": false, "search_states": 6, "solution_count": 0, "placements": [[0, 0], [1, 4], [2, 1]], "row": 3}
+{"event": 35, "kind": "undo", "counts_as_state": false, "search_states": 6, "solution_count": 0, "placements": [[0, 0], [1, 4]], "cell": [2, 1]}
+{"event": 36, "kind": "choose", "counts_as_state": false, "search_states": 6, "solution_count": 0, "placements": [[0, 0], [1, 4], [2, 2]], "cell": [2, 2]}
+{"event": 37, "kind": "visit", "counts_as_state": true, "search_states": 7, "solution_count": 0, "placements": [[0, 0], [1, 4], [2, 2]], "row": 3}
+{"event": 38, "kind": "reject", "counts_as_state": false, "search_states": 7, "solution_count": 0, "placements": [[0, 0], [1, 4], [2, 2]], "row": 3, "column": 0, "reason": "column"}
+{"event": 39, "kind": "reject", "counts_as_state": false, "search_states": 7, "solution_count": 0, "placements": [[0, 0], [1, 4], [2, 2]], "row": 3, "column": 1, "reason": "region"}
+{"event": 40, "kind": "reject", "counts_as_state": false, "search_states": 7, "solution_count": 0, "placements": [[0, 0], [1, 4], [2, 2]], "row": 3, "column": 2, "reason": "column"}
+{"event": 41, "kind": "reject", "counts_as_state": false, "search_states": 7, "solution_count": 0, "placements": [[0, 0], [1, 4], [2, 2]], "row": 3, "column": 3, "reason": "region"}
+{"event": 42, "kind": "reject", "counts_as_state": false, "search_states": 7, "solution_count": 0, "placements": [[0, 0], [1, 4], [2, 2]], "row": 3, "column": 4, "reason": "column"}
+{"event": 43, "kind": "dead_end", "counts_as_state": false, "search_states": 7, "solution_count": 0, "placements": [[0, 0], [1, 4], [2, 2]], "row": 3}
+{"event": 44, "kind": "undo", "counts_as_state": false, "search_states": 7, "solution_count": 0, "placements": [[0, 0], [1, 4]], "cell": [2, 2]}
+{"event": 45, "kind": "reject", "counts_as_state": false, "search_states": 7, "solution_count": 0, "placements": [[0, 0], [1, 4]], "row": 2, "column": 3, "reason": "diagonal"}
+{"event": 46, "kind": "reject", "counts_as_state": false, "search_states": 7, "solution_count": 0, "placements": [[0, 0], [1, 4]], "row": 2, "column": 4, "reason": "column"}
+{"event": 47, "kind": "undo", "counts_as_state": false, "search_states": 7, "solution_count": 0, "placements": [[0, 0]], "cell": [1, 4]}
+{"event": 48, "kind": "undo", "counts_as_state": false, "search_states": 7, "solution_count": 0, "placements": [], "cell": [0, 0]}
+{"event": 49, "kind": "choose", "counts_as_state": false, "search_states": 7, "solution_count": 0, "placements": [[0, 1]], "cell": [0, 1]}
+{"event": 50, "kind": "visit", "counts_as_state": true, "search_states": 8, "solution_count": 0, "placements": [[0, 1]], "row": 1}
+{"event": 51, "kind": "reject", "counts_as_state": false, "search_states": 8, "solution_count": 0, "placements": [[0, 1]], "row": 1, "column": 0, "reason": "region"}
+{"event": 52, "kind": "reject", "counts_as_state": false, "search_states": 8, "solution_count": 0, "placements": [[0, 1]], "row": 1, "column": 1, "reason": "column"}
+{"event": 53, "kind": "reject", "counts_as_state": false, "search_states": 8, "solution_count": 0, "placements": [[0, 1]], "row": 1, "column": 2, "reason": "diagonal"}
+{"event": 54, "kind": "choose", "counts_as_state": false, "search_states": 8, "solution_count": 0, "placements": [[0, 1], [1, 3]], "cell": [1, 3]}
+{"event": 55, "kind": "visit", "counts_as_state": true, "search_states": 9, "solution_count": 0, "placements": [[0, 1], [1, 3]], "row": 2}
+{"event": 56, "kind": "reject", "counts_as_state": false, "search_states": 9, "solution_count": 0, "placements": [[0, 1], [1, 3]], "row": 2, "column": 0, "reason": "region"}
+{"event": 57, "kind": "reject", "counts_as_state": false, "search_states": 9, "solution_count": 0, "placements": [[0, 1], [1, 3]], "row": 2, "column": 1, "reason": "column"}
+{"event": 58, "kind": "reject", "counts_as_state": false, "search_states": 9, "solution_count": 0, "placements": [[0, 1], [1, 3]], "row": 2, "column": 2, "reason": "region"}
+{"event": 59, "kind": "reject", "counts_as_state": false, "search_states": 9, "solution_count": 0, "placements": [[0, 1], [1, 3]], "row": 2, "column": 3, "reason": "column"}
+{"event": 60, "kind": "reject", "counts_as_state": false, "search_states": 9, "solution_count": 0, "placements": [[0, 1], [1, 3]], "row": 2, "column": 4, "reason": "region"}
+{"event": 61, "kind": "dead_end", "counts_as_state": false, "search_states": 9, "solution_count": 0, "placements": [[0, 1], [1, 3]], "row": 2}
+{"event": 62, "kind": "undo", "counts_as_state": false, "search_states": 9, "solution_count": 0, "placements": [[0, 1]], "cell": [1, 3]}
+{"event": 63, "kind": "choose", "counts_as_state": false, "search_states": 9, "solution_count": 0, "placements": [[0, 1], [1, 4]], "cell": [1, 4]}
+{"event": 64, "kind": "visit", "counts_as_state": true, "search_states": 10, "solution_count": 0, "placements": [[0, 1], [1, 4]], "row": 2}
+{"event": 65, "kind": "reject", "counts_as_state": false, "search_states": 10, "solution_count": 0, "placements": [[0, 1], [1, 4]], "row": 2, "column": 0, "reason": "region"}
+{"event": 66, "kind": "reject", "counts_as_state": false, "search_states": 10, "solution_count": 0, "placements": [[0, 1], [1, 4]], "row": 2, "column": 1, "reason": "column"}
+{"event": 67, "kind": "choose", "counts_as_state": false, "search_states": 10, "solution_count": 0, "placements": [[0, 1], [1, 4], [2, 2]], "cell": [2, 2]}
+{"event": 68, "kind": "visit", "counts_as_state": true, "search_states": 11, "solution_count": 0, "placements": [[0, 1], [1, 4], [2, 2]], "row": 3}
+{"event": 69, "kind": "choose", "counts_as_state": false, "search_states": 11, "solution_count": 0, "placements": [[0, 1], [1, 4], [2, 2], [3, 0]], "cell": [3, 0]}
+{"event": 70, "kind": "visit", "counts_as_state": true, "search_states": 12, "solution_count": 0, "placements": [[0, 1], [1, 4], [2, 2], [3, 0]], "row": 4}
+{"event": 71, "kind": "reject", "counts_as_state": false, "search_states": 12, "solution_count": 0, "placements": [[0, 1], [1, 4], [2, 2], [3, 0]], "row": 4, "column": 0, "reason": "column"}
+{"event": 72, "kind": "reject", "counts_as_state": false, "search_states": 12, "solution_count": 0, "placements": [[0, 1], [1, 4], [2, 2], [3, 0]], "row": 4, "column": 1, "reason": "column"}
+{"event": 73, "kind": "reject", "counts_as_state": false, "search_states": 12, "solution_count": 0, "placements": [[0, 1], [1, 4], [2, 2], [3, 0]], "row": 4, "column": 2, "reason": "column"}
+{"event": 74, "kind": "reject", "counts_as_state": false, "search_states": 12, "solution_count": 0, "placements": [[0, 1], [1, 4], [2, 2], [3, 0]], "row": 4, "column": 3, "reason": "region"}
+{"event": 75, "kind": "reject", "counts_as_state": false, "search_states": 12, "solution_count": 0, "placements": [[0, 1], [1, 4], [2, 2], [3, 0]], "row": 4, "column": 4, "reason": "column"}
+{"event": 76, "kind": "dead_end", "counts_as_state": false, "search_states": 12, "solution_count": 0, "placements": [[0, 1], [1, 4], [2, 2], [3, 0]], "row": 4}
+{"event": 77, "kind": "undo", "counts_as_state": false, "search_states": 12, "solution_count": 0, "placements": [[0, 1], [1, 4], [2, 2]], "cell": [3, 0]}
+{"event": 78, "kind": "reject", "counts_as_state": false, "search_states": 12, "solution_count": 0, "placements": [[0, 1], [1, 4], [2, 2]], "row": 3, "column": 1, "reason": "column"}
+{"event": 79, "kind": "reject", "counts_as_state": false, "search_states": 12, "solution_count": 0, "placements": [[0, 1], [1, 4], [2, 2]], "row": 3, "column": 2, "reason": "column"}
+{"event": 80, "kind": "reject", "counts_as_state": false, "search_states": 12, "solution_count": 0, "placements": [[0, 1], [1, 4], [2, 2]], "row": 3, "column": 3, "reason": "region"}
+{"event": 81, "kind": "reject", "counts_as_state": false, "search_states": 12, "solution_count": 0, "placements": [[0, 1], [1, 4], [2, 2]], "row": 3, "column": 4, "reason": "column"}
+{"event": 82, "kind": "undo", "counts_as_state": false, "search_states": 12, "solution_count": 0, "placements": [[0, 1], [1, 4]], "cell": [2, 2]}
+{"event": 83, "kind": "reject", "counts_as_state": false, "search_states": 12, "solution_count": 0, "placements": [[0, 1], [1, 4]], "row": 2, "column": 3, "reason": "diagonal"}
+{"event": 84, "kind": "reject", "counts_as_state": false, "search_states": 12, "solution_count": 0, "placements": [[0, 1], [1, 4]], "row": 2, "column": 4, "reason": "column"}
+{"event": 85, "kind": "undo", "counts_as_state": false, "search_states": 12, "solution_count": 0, "placements": [[0, 1]], "cell": [1, 4]}
+{"event": 86, "kind": "undo", "counts_as_state": false, "search_states": 12, "solution_count": 0, "placements": [], "cell": [0, 1]}
+{"event": 87, "kind": "choose", "counts_as_state": false, "search_states": 12, "solution_count": 0, "placements": [[0, 2]], "cell": [0, 2]}
+{"event": 88, "kind": "visit", "counts_as_state": true, "search_states": 13, "solution_count": 0, "placements": [[0, 2]], "row": 1}
+{"event": 89, "kind": "choose", "counts_as_state": false, "search_states": 13, "solution_count": 0, "placements": [[0, 2], [1, 0]], "cell": [1, 0]}
+{"event": 90, "kind": "visit", "counts_as_state": true, "search_states": 14, "solution_count": 0, "placements": [[0, 2], [1, 0]], "row": 2}
+{"event": 91, "kind": "reject", "counts_as_state": false, "search_states": 14, "solution_count": 0, "placements": [[0, 2], [1, 0]], "row": 2, "column": 0, "reason": "column"}
+{"event": 92, "kind": "reject", "counts_as_state": false, "search_states": 14, "solution_count": 0, "placements": [[0, 2], [1, 0]], "row": 2, "column": 1, "reason": "region"}
+{"event": 93, "kind": "reject", "counts_as_state": false, "search_states": 14, "solution_count": 0, "placements": [[0, 2], [1, 0]], "row": 2, "column": 2, "reason": "column"}
+{"event": 94, "kind": "reject", "counts_as_state": false, "search_states": 14, "solution_count": 0, "placements": [[0, 2], [1, 0]], "row": 2, "column": 3, "reason": "region"}
+{"event": 95, "kind": "reject", "counts_as_state": false, "search_states": 14, "solution_count": 0, "placements": [[0, 2], [1, 0]], "row": 2, "column": 4, "reason": "region"}
+{"event": 96, "kind": "dead_end", "counts_as_state": false, "search_states": 14, "solution_count": 0, "placements": [[0, 2], [1, 0]], "row": 2}
+{"event": 97, "kind": "undo", "counts_as_state": false, "search_states": 14, "solution_count": 0, "placements": [[0, 2]], "cell": [1, 0]}
+{"event": 98, "kind": "reject", "counts_as_state": false, "search_states": 14, "solution_count": 0, "placements": [[0, 2]], "row": 1, "column": 1, "reason": "diagonal"}
+{"event": 99, "kind": "reject", "counts_as_state": false, "search_states": 14, "solution_count": 0, "placements": [[0, 2]], "row": 1, "column": 2, "reason": "column"}
+{"event": 100, "kind": "reject", "counts_as_state": false, "search_states": 14, "solution_count": 0, "placements": [[0, 2]], "row": 1, "column": 3, "reason": "region"}
+{"event": 101, "kind": "choose", "counts_as_state": false, "search_states": 14, "solution_count": 0, "placements": [[0, 2], [1, 4]], "cell": [1, 4]}
+{"event": 102, "kind": "visit", "counts_as_state": true, "search_states": 15, "solution_count": 0, "placements": [[0, 2], [1, 4]], "row": 2}
+{"event": 103, "kind": "choose", "counts_as_state": false, "search_states": 15, "solution_count": 0, "placements": [[0, 2], [1, 4], [2, 0]], "cell": [2, 0]}
+{"event": 104, "kind": "visit", "counts_as_state": true, "search_states": 16, "solution_count": 0, "placements": [[0, 2], [1, 4], [2, 0]], "row": 3}
+{"event": 105, "kind": "reject", "counts_as_state": false, "search_states": 16, "solution_count": 0, "placements": [[0, 2], [1, 4], [2, 0]], "row": 3, "column": 0, "reason": "column"}
+{"event": 106, "kind": "reject", "counts_as_state": false, "search_states": 16, "solution_count": 0, "placements": [[0, 2], [1, 4], [2, 0]], "row": 3, "column": 1, "reason": "region"}
+{"event": 107, "kind": "reject", "counts_as_state": false, "search_states": 16, "solution_count": 0, "placements": [[0, 2], [1, 4], [2, 0]], "row": 3, "column": 2, "reason": "column"}
+{"event": 108, "kind": "reject", "counts_as_state": false, "search_states": 16, "solution_count": 0, "placements": [[0, 2], [1, 4], [2, 0]], "row": 3, "column": 3, "reason": "region"}
+{"event": 109, "kind": "reject", "counts_as_state": false, "search_states": 16, "solution_count": 0, "placements": [[0, 2], [1, 4], [2, 0]], "row": 3, "column": 4, "reason": "column"}
+{"event": 110, "kind": "dead_end", "counts_as_state": false, "search_states": 16, "solution_count": 0, "placements": [[0, 2], [1, 4], [2, 0]], "row": 3}
+{"event": 111, "kind": "undo", "counts_as_state": false, "search_states": 16, "solution_count": 0, "placements": [[0, 2], [1, 4]], "cell": [2, 0]}
+{"event": 112, "kind": "reject", "counts_as_state": false, "search_states": 16, "solution_count": 0, "placements": [[0, 2], [1, 4]], "row": 2, "column": 1, "reason": "region"}
+{"event": 113, "kind": "reject", "counts_as_state": false, "search_states": 16, "solution_count": 0, "placements": [[0, 2], [1, 4]], "row": 2, "column": 2, "reason": "column"}
+{"event": 114, "kind": "reject", "counts_as_state": false, "search_states": 16, "solution_count": 0, "placements": [[0, 2], [1, 4]], "row": 2, "column": 3, "reason": "region"}
+{"event": 115, "kind": "reject", "counts_as_state": false, "search_states": 16, "solution_count": 0, "placements": [[0, 2], [1, 4]], "row": 2, "column": 4, "reason": "column"}
+{"event": 116, "kind": "undo", "counts_as_state": false, "search_states": 16, "solution_count": 0, "placements": [[0, 2]], "cell": [1, 4]}
+{"event": 117, "kind": "undo", "counts_as_state": false, "search_states": 16, "solution_count": 0, "placements": [], "cell": [0, 2]}
+{"event": 118, "kind": "choose", "counts_as_state": false, "search_states": 16, "solution_count": 0, "placements": [[0, 3]], "cell": [0, 3]}
+{"event": 119, "kind": "visit", "counts_as_state": true, "search_states": 17, "solution_count": 0, "placements": [[0, 3]], "row": 1}
+{"event": 120, "kind": "choose", "counts_as_state": false, "search_states": 17, "solution_count": 0, "placements": [[0, 3], [1, 0]], "cell": [1, 0]}
+{"event": 121, "kind": "visit", "counts_as_state": true, "search_states": 18, "solution_count": 0, "placements": [[0, 3], [1, 0]], "row": 2}
+{"event": 122, "kind": "reject", "counts_as_state": false, "search_states": 18, "solution_count": 0, "placements": [[0, 3], [1, 0]], "row": 2, "column": 0, "reason": "column"}
+{"event": 123, "kind": "reject", "counts_as_state": false, "search_states": 18, "solution_count": 0, "placements": [[0, 3], [1, 0]], "row": 2, "column": 1, "reason": "region"}
+{"event": 124, "kind": "reject", "counts_as_state": false, "search_states": 18, "solution_count": 0, "placements": [[0, 3], [1, 0]], "row": 2, "column": 2, "reason": "region"}
+{"event": 125, "kind": "reject", "counts_as_state": false, "search_states": 18, "solution_count": 0, "placements": [[0, 3], [1, 0]], "row": 2, "column": 3, "reason": "column"}
+{"event": 126, "kind": "reject", "counts_as_state": false, "search_states": 18, "solution_count": 0, "placements": [[0, 3], [1, 0]], "row": 2, "column": 4, "reason": "region"}
+{"event": 127, "kind": "dead_end", "counts_as_state": false, "search_states": 18, "solution_count": 0, "placements": [[0, 3], [1, 0]], "row": 2}
+{"event": 128, "kind": "undo", "counts_as_state": false, "search_states": 18, "solution_count": 0, "placements": [[0, 3]], "cell": [1, 0]}
+{"event": 129, "kind": "choose", "counts_as_state": false, "search_states": 18, "solution_count": 0, "placements": [[0, 3], [1, 1]], "cell": [1, 1]}
+{"event": 130, "kind": "visit", "counts_as_state": true, "search_states": 19, "solution_count": 0, "placements": [[0, 3], [1, 1]], "row": 2}
+{"event": 131, "kind": "reject", "counts_as_state": false, "search_states": 19, "solution_count": 0, "placements": [[0, 3], [1, 1]], "row": 2, "column": 0, "reason": "region"}
+{"event": 132, "kind": "reject", "counts_as_state": false, "search_states": 19, "solution_count": 0, "placements": [[0, 3], [1, 1]], "row": 2, "column": 1, "reason": "column"}
+{"event": 133, "kind": "reject", "counts_as_state": false, "search_states": 19, "solution_count": 0, "placements": [[0, 3], [1, 1]], "row": 2, "column": 2, "reason": "region"}
+{"event": 134, "kind": "reject", "counts_as_state": false, "search_states": 19, "solution_count": 0, "placements": [[0, 3], [1, 1]], "row": 2, "column": 3, "reason": "column"}
+{"event": 135, "kind": "reject", "counts_as_state": false, "search_states": 19, "solution_count": 0, "placements": [[0, 3], [1, 1]], "row": 2, "column": 4, "reason": "region"}
+{"event": 136, "kind": "dead_end", "counts_as_state": false, "search_states": 19, "solution_count": 0, "placements": [[0, 3], [1, 1]], "row": 2}
+{"event": 137, "kind": "undo", "counts_as_state": false, "search_states": 19, "solution_count": 0, "placements": [[0, 3]], "cell": [1, 1]}
+{"event": 138, "kind": "reject", "counts_as_state": false, "search_states": 19, "solution_count": 0, "placements": [[0, 3]], "row": 1, "column": 2, "reason": "region"}
+{"event": 139, "kind": "reject", "counts_as_state": false, "search_states": 19, "solution_count": 0, "placements": [[0, 3]], "row": 1, "column": 3, "reason": "column"}
+{"event": 140, "kind": "reject", "counts_as_state": false, "search_states": 19, "solution_count": 0, "placements": [[0, 3]], "row": 1, "column": 4, "reason": "diagonal"}
+{"event": 141, "kind": "undo", "counts_as_state": false, "search_states": 19, "solution_count": 0, "placements": [], "cell": [0, 3]}
+{"event": 142, "kind": "choose", "counts_as_state": false, "search_states": 19, "solution_count": 0, "placements": [[0, 4]], "cell": [0, 4]}
+{"event": 143, "kind": "visit", "counts_as_state": true, "search_states": 20, "solution_count": 0, "placements": [[0, 4]], "row": 1}
+{"event": 144, "kind": "choose", "counts_as_state": false, "search_states": 20, "solution_count": 0, "placements": [[0, 4], [1, 0]], "cell": [1, 0]}
+{"event": 145, "kind": "visit", "counts_as_state": true, "search_states": 21, "solution_count": 0, "placements": [[0, 4], [1, 0]], "row": 2}
+{"event": 146, "kind": "reject", "counts_as_state": false, "search_states": 21, "solution_count": 0, "placements": [[0, 4], [1, 0]], "row": 2, "column": 0, "reason": "column"}
+{"event": 147, "kind": "reject", "counts_as_state": false, "search_states": 21, "solution_count": 0, "placements": [[0, 4], [1, 0]], "row": 2, "column": 1, "reason": "diagonal"}
+{"event": 148, "kind": "choose", "counts_as_state": false, "search_states": 21, "solution_count": 0, "placements": [[0, 4], [1, 0], [2, 2]], "cell": [2, 2]}
+{"event": 149, "kind": "visit", "counts_as_state": true, "search_states": 22, "solution_count": 0, "placements": [[0, 4], [1, 0], [2, 2]], "row": 3}
+{"event": 150, "kind": "reject", "counts_as_state": false, "search_states": 22, "solution_count": 0, "placements": [[0, 4], [1, 0], [2, 2]], "row": 3, "column": 0, "reason": "column"}
+{"event": 151, "kind": "reject", "counts_as_state": false, "search_states": 22, "solution_count": 0, "placements": [[0, 4], [1, 0], [2, 2]], "row": 3, "column": 1, "reason": "region"}
+{"event": 152, "kind": "reject", "counts_as_state": false, "search_states": 22, "solution_count": 0, "placements": [[0, 4], [1, 0], [2, 2]], "row": 3, "column": 2, "reason": "column"}
+{"event": 153, "kind": "reject", "counts_as_state": false, "search_states": 22, "solution_count": 0, "placements": [[0, 4], [1, 0], [2, 2]], "row": 3, "column": 3, "reason": "region"}
+{"event": 154, "kind": "reject", "counts_as_state": false, "search_states": 22, "solution_count": 0, "placements": [[0, 4], [1, 0], [2, 2]], "row": 3, "column": 4, "reason": "column"}
+{"event": 155, "kind": "dead_end", "counts_as_state": false, "search_states": 22, "solution_count": 0, "placements": [[0, 4], [1, 0], [2, 2]], "row": 3}
+{"event": 156, "kind": "undo", "counts_as_state": false, "search_states": 22, "solution_count": 0, "placements": [[0, 4], [1, 0]], "cell": [2, 2]}
+{"event": 157, "kind": "choose", "counts_as_state": false, "search_states": 22, "solution_count": 0, "placements": [[0, 4], [1, 0], [2, 3]], "cell": [2, 3]}
+{"event": 158, "kind": "visit", "counts_as_state": true, "search_states": 23, "solution_count": 0, "placements": [[0, 4], [1, 0], [2, 3]], "row": 3}
+{"event": 159, "kind": "reject", "counts_as_state": false, "search_states": 23, "solution_count": 0, "placements": [[0, 4], [1, 0], [2, 3]], "row": 3, "column": 0, "reason": "column"}
+{"event": 160, "kind": "reject", "counts_as_state": false, "search_states": 23, "solution_count": 0, "placements": [[0, 4], [1, 0], [2, 3]], "row": 3, "column": 1, "reason": "region"}
+{"event": 161, "kind": "reject", "counts_as_state": false, "search_states": 23, "solution_count": 0, "placements": [[0, 4], [1, 0], [2, 3]], "row": 3, "column": 2, "reason": "region"}
+{"event": 162, "kind": "reject", "counts_as_state": false, "search_states": 23, "solution_count": 0, "placements": [[0, 4], [1, 0], [2, 3]], "row": 3, "column": 3, "reason": "column"}
+{"event": 163, "kind": "reject", "counts_as_state": false, "search_states": 23, "solution_count": 0, "placements": [[0, 4], [1, 0], [2, 3]], "row": 3, "column": 4, "reason": "column"}
+{"event": 164, "kind": "dead_end", "counts_as_state": false, "search_states": 23, "solution_count": 0, "placements": [[0, 4], [1, 0], [2, 3]], "row": 3}
+{"event": 165, "kind": "undo", "counts_as_state": false, "search_states": 23, "solution_count": 0, "placements": [[0, 4], [1, 0]], "cell": [2, 3]}
+{"event": 166, "kind": "reject", "counts_as_state": false, "search_states": 23, "solution_count": 0, "placements": [[0, 4], [1, 0]], "row": 2, "column": 4, "reason": "column"}
+{"event": 167, "kind": "undo", "counts_as_state": false, "search_states": 23, "solution_count": 0, "placements": [[0, 4]], "cell": [1, 0]}
+{"event": 168, "kind": "choose", "counts_as_state": false, "search_states": 23, "solution_count": 0, "placements": [[0, 4], [1, 1]], "cell": [1, 1]}
+{"event": 169, "kind": "visit", "counts_as_state": true, "search_states": 24, "solution_count": 0, "placements": [[0, 4], [1, 1]], "row": 2}
+{"event": 170, "kind": "reject", "counts_as_state": false, "search_states": 24, "solution_count": 0, "placements": [[0, 4], [1, 1]], "row": 2, "column": 0, "reason": "region"}
+{"event": 171, "kind": "reject", "counts_as_state": false, "search_states": 24, "solution_count": 0, "placements": [[0, 4], [1, 1]], "row": 2, "column": 1, "reason": "column"}
+{"event": 172, "kind": "reject", "counts_as_state": false, "search_states": 24, "solution_count": 0, "placements": [[0, 4], [1, 1]], "row": 2, "column": 2, "reason": "diagonal"}
+{"event": 173, "kind": "choose", "counts_as_state": false, "search_states": 24, "solution_count": 0, "placements": [[0, 4], [1, 1], [2, 3]], "cell": [2, 3]}
+{"event": 174, "kind": "visit", "counts_as_state": true, "search_states": 25, "solution_count": 0, "placements": [[0, 4], [1, 1], [2, 3]], "row": 3}
+{"event": 175, "kind": "choose", "counts_as_state": false, "search_states": 25, "solution_count": 0, "placements": [[0, 4], [1, 1], [2, 3], [3, 0]], "cell": [3, 0]}
+{"event": 176, "kind": "visit", "counts_as_state": true, "search_states": 26, "solution_count": 0, "placements": [[0, 4], [1, 1], [2, 3], [3, 0]], "row": 4}
+{"event": 177, "kind": "reject", "counts_as_state": false, "search_states": 26, "solution_count": 0, "placements": [[0, 4], [1, 1], [2, 3], [3, 0]], "row": 4, "column": 0, "reason": "column"}
+{"event": 178, "kind": "reject", "counts_as_state": false, "search_states": 26, "solution_count": 0, "placements": [[0, 4], [1, 1], [2, 3], [3, 0]], "row": 4, "column": 1, "reason": "column"}
+{"event": 179, "kind": "choose", "counts_as_state": false, "search_states": 26, "solution_count": 0, "placements": [[0, 4], [1, 1], [2, 3], [3, 0], [4, 2]], "cell": [4, 2]}
+{"event": 180, "kind": "solution", "counts_as_state": true, "search_states": 27, "solution_count": 1, "placements": [[0, 4], [1, 1], [2, 3], [3, 0], [4, 2]], "solution_index": 1}
+{"event": 181, "kind": "undo", "counts_as_state": false, "search_states": 27, "solution_count": 1, "placements": [[0, 4], [1, 1], [2, 3], [3, 0]], "cell": [4, 2]}
+{"event": 182, "kind": "reject", "counts_as_state": false, "search_states": 27, "solution_count": 1, "placements": [[0, 4], [1, 1], [2, 3], [3, 0]], "row": 4, "column": 3, "reason": "column"}
+{"event": 183, "kind": "reject", "counts_as_state": false, "search_states": 27, "solution_count": 1, "placements": [[0, 4], [1, 1], [2, 3], [3, 0]], "row": 4, "column": 4, "reason": "column"}
+{"event": 184, "kind": "undo", "counts_as_state": false, "search_states": 27, "solution_count": 1, "placements": [[0, 4], [1, 1], [2, 3]], "cell": [3, 0]}
+{"event": 185, "kind": "reject", "counts_as_state": false, "search_states": 27, "solution_count": 1, "placements": [[0, 4], [1, 1], [2, 3]], "row": 3, "column": 1, "reason": "column"}
+{"event": 186, "kind": "reject", "counts_as_state": false, "search_states": 27, "solution_count": 1, "placements": [[0, 4], [1, 1], [2, 3]], "row": 3, "column": 2, "reason": "region"}
+{"event": 187, "kind": "reject", "counts_as_state": false, "search_states": 27, "solution_count": 1, "placements": [[0, 4], [1, 1], [2, 3]], "row": 3, "column": 3, "reason": "column"}
+{"event": 188, "kind": "reject", "counts_as_state": false, "search_states": 27, "solution_count": 1, "placements": [[0, 4], [1, 1], [2, 3]], "row": 3, "column": 4, "reason": "column"}
+{"event": 189, "kind": "undo", "counts_as_state": false, "search_states": 27, "solution_count": 1, "placements": [[0, 4], [1, 1]], "cell": [2, 3]}
+{"event": 190, "kind": "reject", "counts_as_state": false, "search_states": 27, "solution_count": 1, "placements": [[0, 4], [1, 1]], "row": 2, "column": 4, "reason": "column"}
+{"event": 191, "kind": "undo", "counts_as_state": false, "search_states": 27, "solution_count": 1, "placements": [[0, 4]], "cell": [1, 1]}
+{"event": 192, "kind": "choose", "counts_as_state": false, "search_states": 27, "solution_count": 1, "placements": [[0, 4], [1, 2]], "cell": [1, 2]}
+{"event": 193, "kind": "visit", "counts_as_state": true, "search_states": 28, "solution_count": 1, "placements": [[0, 4], [1, 2]], "row": 2}
+{"event": 194, "kind": "choose", "counts_as_state": false, "search_states": 28, "solution_count": 1, "placements": [[0, 4], [1, 2], [2, 0]], "cell": [2, 0]}
+{"event": 195, "kind": "visit", "counts_as_state": true, "search_states": 29, "solution_count": 1, "placements": [[0, 4], [1, 2], [2, 0]], "row": 3}
+{"event": 196, "kind": "reject", "counts_as_state": false, "search_states": 29, "solution_count": 1, "placements": [[0, 4], [1, 2], [2, 0]], "row": 3, "column": 0, "reason": "column"}
+{"event": 197, "kind": "reject", "counts_as_state": false, "search_states": 29, "solution_count": 1, "placements": [[0, 4], [1, 2], [2, 0]], "row": 3, "column": 1, "reason": "region"}
+{"event": 198, "kind": "reject", "counts_as_state": false, "search_states": 29, "solution_count": 1, "placements": [[0, 4], [1, 2], [2, 0]], "row": 3, "column": 2, "reason": "column"}
+{"event": 199, "kind": "reject", "counts_as_state": false, "search_states": 29, "solution_count": 1, "placements": [[0, 4], [1, 2], [2, 0]], "row": 3, "column": 3, "reason": "region"}
+{"event": 200, "kind": "reject", "counts_as_state": false, "search_states": 29, "solution_count": 1, "placements": [[0, 4], [1, 2], [2, 0]], "row": 3, "column": 4, "reason": "column"}
+{"event": 201, "kind": "dead_end", "counts_as_state": false, "search_states": 29, "solution_count": 1, "placements": [[0, 4], [1, 2], [2, 0]], "row": 3}
+{"event": 202, "kind": "undo", "counts_as_state": false, "search_states": 29, "solution_count": 1, "placements": [[0, 4], [1, 2]], "cell": [2, 0]}
+{"event": 203, "kind": "reject", "counts_as_state": false, "search_states": 29, "solution_count": 1, "placements": [[0, 4], [1, 2]], "row": 2, "column": 1, "reason": "region"}
+{"event": 204, "kind": "reject", "counts_as_state": false, "search_states": 29, "solution_count": 1, "placements": [[0, 4], [1, 2]], "row": 2, "column": 2, "reason": "column"}
+{"event": 205, "kind": "reject", "counts_as_state": false, "search_states": 29, "solution_count": 1, "placements": [[0, 4], [1, 2]], "row": 2, "column": 3, "reason": "region"}
+{"event": 206, "kind": "reject", "counts_as_state": false, "search_states": 29, "solution_count": 1, "placements": [[0, 4], [1, 2]], "row": 2, "column": 4, "reason": "column"}
+{"event": 207, "kind": "undo", "counts_as_state": false, "search_states": 29, "solution_count": 1, "placements": [[0, 4]], "cell": [1, 2]}
+{"event": 208, "kind": "reject", "counts_as_state": false, "search_states": 29, "solution_count": 1, "placements": [[0, 4]], "row": 1, "column": 3, "reason": "diagonal"}
+{"event": 209, "kind": "reject", "counts_as_state": false, "search_states": 29, "solution_count": 1, "placements": [[0, 4]], "row": 1, "column": 4, "reason": "column"}
+{"event": 210, "kind": "undo", "counts_as_state": false, "search_states": 29, "solution_count": 1, "placements": [], "cell": [0, 4]}
+{"event": 211, "kind": "finish", "counts_as_state": false, "search_states": 29, "solution_count": 1, "placements": [], "status": "unique", "reason": null, "first_solution": [[0, 4], [1, 1], [2, 3], [3, 0], [4, 2]]}

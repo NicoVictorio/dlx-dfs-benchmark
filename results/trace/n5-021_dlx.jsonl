@@ -1,0 +1,20 @@
+{"event": 1, "kind": "visit", "counts_as_state": true, "search_states": 1, "solution_count": 0, "placements": [], "column": ["region", 4], "candidates": [[4, 2]]}
+{"event": 2, "kind": "choose", "counts_as_state": false, "search_states": 1, "solution_count": 0, "placements": [[4, 2]], "cell": [4, 2], "column": ["region", 4]}
+{"event": 3, "kind": "visit", "counts_as_state": true, "search_states": 2, "solution_count": 0, "placements": [[4, 2]], "column": ["region", 3], "candidates": [[3, 0]]}
+{"event": 4, "kind": "choose", "counts_as_state": false, "search_states": 2, "solution_count": 0, "placements": [[4, 2], [3, 0]], "cell": [3, 0], "column": ["region", 3]}
+{"event": 5, "kind": "visit", "counts_as_state": true, "search_states": 3, "solution_count": 0, "placements": [[4, 2], [3, 0]], "column": ["row", 2], "candidates": [[2, 3], [2, 4]]}
+{"event": 6, "kind": "choose", "counts_as_state": false, "search_states": 3, "solution_count": 0, "placements": [[4, 2], [3, 0], [2, 3]], "cell": [2, 3], "column": ["row", 2]}
+{"event": 7, "kind": "visit", "counts_as_state": true, "search_states": 4, "solution_count": 0, "placements": [[4, 2], [3, 0], [2, 3]], "column": ["row", 1], "candidates": [[1, 1]]}
+{"event": 8, "kind": "choose", "counts_as_state": false, "search_states": 4, "solution_count": 0, "placements": [[4, 2], [3, 0], [2, 3], [1, 1]], "cell": [1, 1], "column": ["row", 1]}
+{"event": 9, "kind": "visit", "counts_as_state": true, "search_states": 5, "solution_count": 0, "placements": [[4, 2], [3, 0], [2, 3], [1, 1]], "column": ["row", 0], "candidates": [[0, 4]]}
+{"event": 10, "kind": "choose", "counts_as_state": false, "search_states": 5, "solution_count": 0, "placements": [[4, 2], [3, 0], [2, 3], [1, 1], [0, 4]], "cell": [0, 4], "column": ["row", 0]}
+{"event": 11, "kind": "solution", "counts_as_state": true, "search_states": 6, "solution_count": 1, "placements": [[4, 2], [3, 0], [2, 3], [1, 1], [0, 4]], "solution_index": 1}
+{"event": 12, "kind": "undo", "counts_as_state": false, "search_states": 6, "solution_count": 1, "placements": [[4, 2], [3, 0], [2, 3], [1, 1]], "cell": [0, 4], "column": ["row", 0]}
+{"event": 13, "kind": "undo", "counts_as_state": false, "search_states": 6, "solution_count": 1, "placements": [[4, 2], [3, 0], [2, 3]], "cell": [1, 1], "column": ["row", 1]}
+{"event": 14, "kind": "undo", "counts_as_state": false, "search_states": 6, "solution_count": 1, "placements": [[4, 2], [3, 0]], "cell": [2, 3], "column": ["row", 2]}
+{"event": 15, "kind": "choose", "counts_as_state": false, "search_states": 6, "solution_count": 1, "placements": [[4, 2], [3, 0], [2, 4]], "cell": [2, 4], "column": ["row", 2]}
+{"event": 16, "kind": "dead_end", "counts_as_state": true, "search_states": 7, "solution_count": 1, "placements": [[4, 2], [3, 0], [2, 4]], "column": ["col", 3], "candidates": []}
+{"event": 17, "kind": "undo", "counts_as_state": false, "search_states": 7, "solution_count": 1, "placements": [[4, 2], [3, 0]], "cell": [2, 4], "column": ["row", 2]}
+{"event": 18, "kind": "undo", "counts_as_state": false, "search_states": 7, "solution_count": 1, "placements": [[4, 2]], "cell": [3, 0], "column": ["region", 3]}
+{"event": 19, "kind": "undo", "counts_as_state": false, "search_states": 7, "solution_count": 1, "placements": [], "cell": [4, 2], "column": ["region", 4]}
+{"event": 20, "kind": "finish", "counts_as_state": false, "search_states": 7, "solution_count": 1, "placements": [], "status": "unique", "reason": null, "first_solution": [[4, 2], [3, 0], [2, 3], [1, 1], [0, 4]]}
